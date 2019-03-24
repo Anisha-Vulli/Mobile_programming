@@ -17,38 +17,55 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="32dp"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:onClick="onClickOpenWebpageButton"
-        android:text="Open Website"/>
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:paddingBottom="16dp"
+        android:onClick="onClickGame"
+        android:fontFamily="monospace"
+        android:text="New Game"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:onClick="onClickOpenAddressButton"
-        android:text="Open Location in Map"/>
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:onClick="onClickDevice"
+        android:fontFamily="monospace"
+        android:text="Pair a device"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:onClick="onClickShareTextButton"
-        android:text="Share Text Content"/>
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:onClick="onClickDescription"
+        android:fontFamily="monospace"
+        android:text="How to play"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:onClick="createYourOwn"
-        android:text="Create Your Own"/>
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:onClick="onClickAbout"
+        android:fontFamily="monospace"
+        android:text="About the game"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:onClick="onClickQuit"
+        android:fontFamily="monospace"
+        android:text="Quit"/>
 
 </LinearLayout>

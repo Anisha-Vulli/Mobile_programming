@@ -1,0 +1,27 @@
+<!--
+  Copyright (C) 2016 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="app_name">BINGO GAME</string>
+    <string name="app_description">First of all both the players who are going to play need to be connected through bluetooth \n
+    Once they are connected they can play the game. \n\n
+    Each player would be having a 5 X 5 grid visible to them. Numbers are written inside each block starting from 1 - 25 randomly.\n\n
+    Each player will take turns in telling the numbers randomly. And both players cross their numbers in the board. \n\n
+    For each and every row completed either horizontally or vertically or diagonally each letter in the word BINGO is highlighted. The player who completes the word BINGO first "WINS"
+    \n\n\n</string>
+
+    <string name="people"> PRAVEEN. N \n NIKITHA . G \n ANISHA . V
+    </string>
+</resources>

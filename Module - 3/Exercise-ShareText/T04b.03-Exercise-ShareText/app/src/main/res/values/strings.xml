@@ -14,5 +14,6 @@
   limitations under the License.
 -->
 <resources>
-    <string name="app_name">Implicit Intents</string>
+    <string name="app_name">BINGO GAME</string>
+    <string name="description">Description of the game</string>
 </resources>

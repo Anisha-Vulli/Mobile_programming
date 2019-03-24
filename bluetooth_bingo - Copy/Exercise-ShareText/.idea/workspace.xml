@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d34aa622-f87b-4541-a68c-961951b5b898" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/.idea/Exercise-RecyclerView.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-LaunchNewActivity/.idea/Exercise-LaunchNewActivity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-LaunchNewActivity/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-LaunchNewActivity/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-LaunchNewActivity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-LaunchNewActivity/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_description.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/PixelGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/about.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/communication_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/connectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/first_screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/paired_devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_connectivity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_description.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_firstscreen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_game.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_paireddevices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module - 7/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/available_devices_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/S03.01-Exercise-RecyclerView/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/S03.01-Exercise-RecyclerView/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/S03.01-Exercise-RecyclerView/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 2/Exercise-RecyclerView/S03.01-Exercise-RecyclerView/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/java/com/example/android/implicitintents/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module - 3/Exercise-ShareText/T04b.03-Exercise-ShareText/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1326802854">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Exercise-ShareText" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Exercise-ShareText" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/T04b.03-Exercise-ShareText" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d34aa622-f87b-4541-a68c-961951b5b898" name="Default Changelist" comment="" />
+      <created>1553272350516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553272350516</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.33489934" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" weight="0.32907802" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

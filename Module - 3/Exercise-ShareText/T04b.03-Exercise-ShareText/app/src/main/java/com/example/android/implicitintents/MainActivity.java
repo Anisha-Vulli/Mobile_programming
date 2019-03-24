@@ -37,9 +37,11 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v Button that was clicked.
      */
-    public void onClickOpenWebpageButton(View v) {
-        String urlAsString = "http://www.udacity.com";
-        openWebPage(urlAsString);
+    public void onClickGame(View v) {
+        Toast.makeText(this,
+                "TODO: Create Your Own Implicit Intent",
+                Toast.LENGTH_SHORT)
+                .show();
     }
 
     /**
@@ -48,16 +50,11 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v Button that was clicked.
      */
-    public void onClickOpenAddressButton(View v) {
-        String addressString = "IIIT Hyderabad";
-
-        Uri.Builder builder = new Uri.Builder();
-        builder.scheme("geo")
-                .path("0,0")
-                .appendQueryParameter("q", addressString);
-        Uri addressUri = builder.build();
-
-        showMap(addressUri);
+    public void onClickDevice(View v) {
+        Toast.makeText(this,
+                "TODO: Create Your Own Implicit Intent",
+                Toast.LENGTH_SHORT)
+                .show();
     }
 
     /**
@@ -66,11 +63,8 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v Button that was clicked.
      */
-    public void onClickShareTextButton(View v) {
-        String textThatYouWantToShare = "You cant stop me loving myself";
-
-        // TODO (6) Replace the Toast with shareText, passing in the String from step 5
-        shareText(textThatYouWantToShare);
+    public void onClickDescription(View v) {
+        description();
     }
 
     /**
@@ -82,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v Button that was clicked.
      */
-    public void createYourOwn(View v) {
+    public void onClickAbout(View v) {
         Toast.makeText(this,
                 "TODO: Create Your Own Implicit Intent",
                 Toast.LENGTH_SHORT)
@@ -90,69 +84,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method fires off an implicit Intent to open a webpage.
+     * This is where you will create and fire off your own implicit Intent. Yours will be very
+     * similar to what I've done above. You can view a list of implicit Intents on the Common
+     * Intents page from the developer documentation.
      *
-     * @param url Url of webpage to open. Should start with http:// or https:// as that is the
-     *            scheme of the URI expected with this Intent according to the Common Intents page
+     * @see <http://developer.android.com/guide/components/intents-common.html/>
+     *
+     * @param v Button that was clicked.
      */
-    private void openWebPage(String url) {
-        /*
-         * We wanted to demonstrate the Uri.parse method because its usage occurs frequently. You
-         * could have just as easily passed in a Uri as the parameter of this method.
-         */
-        Uri webpage = Uri.parse(url);
-
-        /*
-         * Here, we create the Intent with the action of ACTION_VIEW. This action allows the user
-         * to view particular content. In this case, our webpage URL.
-         */
-        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
-
-        /*
-         * This is a check we perform with every implicit Intent that we launch. In some cases,
-         * the device where this code is running might not have an Activity to perform the action
-         * with the data we've specified. Without this check, in those cases your app would crash.
-         */
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
+    public void onClickQuit(View v) {
+        Toast.makeText(this,
+                "TODO: Create Your Own Implicit Intent",
+                Toast.LENGTH_SHORT)
+                .show();
     }
 
-    /**
-     * This method will fire off an implicit Intent to view a location on a map.
-     *
-     * When constructing implicit Intents, you can use either the setData method or specify the
-     * URI as the second parameter of the Intent's constructor,
-     * as I do in {@link #openWebPage(String)}
-     *
-     * @param geoLocation The Uri representing the location that will be opened in the map
-     */
-    private void showMap(Uri geoLocation) {
-        /*
-         * Again, we create an Intent with the action, ACTION_VIEW because we want to VIEW the
-         * contents of this Uri.
-         */
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-
-        /*
-         * Using setData to set the Uri of this Intent has the exact same affect as passing it in
-         * the Intent's constructor. This is simply an alternate way of doing this.
-         */
-        intent.setData(geoLocation);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
-    }
-
-
-    private void shareText(String textToShare) {
-        String mimeType = "text/plain";
-        String title = "Learning How to share";
-        ShareCompat.IntentBuilder.from(this)
-                .setType(mimeType)
-                .setChooserTitle(title)
-                .setText(textToShare)
-                .startChooser();
+    private void description() {
+        Intent startNewIntent = new Intent(this, description.class);
+        startActivity(startNewIntent);
     }
 
 }
